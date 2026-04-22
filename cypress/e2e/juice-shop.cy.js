@@ -194,7 +194,7 @@ describe("Juice-shop scenarios", () => {
       SavedAddressesPage.addNewAddress.click();
 
       const country = "Estonia";
-      const name = "Laura";
+      const name = "Samanta";
       const number = "29112233";
       const zipcode = "EE-10415";
       const address = "Pargi Street 12";
@@ -228,7 +228,7 @@ describe("Juice-shop scenarios", () => {
 
       SavedPaymentMethodsPage.addNewCard.click();
 
-      const name = "Laura Test";
+      const name = "Sammy Test";
       const cardnumber = "4111111111111111";
 
       SavedPaymentMethodsPage.nameField.type(name);
